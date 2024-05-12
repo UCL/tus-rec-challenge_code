@@ -38,12 +38,11 @@ def data_pairs_adjacent(num_frames):
 def read_calib_matrices(filename_calib):
     # T{image->tool} = T{image_mm -> tool} * T{image_pix -> image_mm}}
     tform_calib = np.empty((8,4), np.float32)
-    with open(filename_calib) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')    
-        for ii, row in enumerate(csv_reader):
-            tform_calib[ii,:] = (list(map(float,row)))
+    with open(filename_calib,'r') as csv_file:
+        txt = [i.strip('\n').split(',') for i in csv_file.readlines()]
+        tform_calib[0:4,:]=np.array(txt[1:5]).astype(np.float32)
+        tform_calib[4:8,:]=np.array(txt[6:10]).astype(np.float32)
     return torch.tensor(tform_calib[0:4,:]),torch.tensor(tform_calib[4:8,:]), torch.tensor(tform_calib[4:8,:] @ tform_calib[0:4,:])
-
 
 def plot_scan(gt,frame,saved_name,step,width = 4, scatter = 8, legend_size=50):
 
