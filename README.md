@@ -35,6 +35,13 @@ Scanning protocol: Both left and right forearms of volunteers were scanned. For 
 
 * Calibration matrix: The calibration matrix was obtained using a pinhead-based method. The `scaling_from_pixel_to_mm` and `spatial_calibration_from_image_coordinate_system_to_tracking_tool_coordinate_system` are provided in the “calib_matrix.csv”. 
 
+## Code
+
+This repo contains the example code for the Challenge task. 
+
+* `data_process.py`: an example code for processing data and scan plotting.
+
+
 ## Data Usage Policy
 The training and validation data provided may be utilized within the research scope of this challenge and in subsequent research-related publications. However, commercial use of the training and validation data is prohibited. In cases where the intended use is ambiguous, participants accessing the data are requested to abstain from further distribution or use outside the scope of this challenge. Please refer to [this Section](https://github-pages.ucl.ac.uk/tus-rec-challenge/policies.html) for detailed data usage policy.
 
