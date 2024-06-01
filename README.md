@@ -6,7 +6,8 @@ The TUS-REC2024 Challenge is a part of the 27th International Conference on Medi
 
 [Website](https://github-pages.ucl.ac.uk/tus-rec-challenge/) |
 [Train Dataset (Part 1,](https://zenodo.org/doi/10.5281/zenodo.11178508) 
-[Part 2)](https://zenodo.org/doi/10.5281/zenodo.11180794) |
+[Part 2,](https://zenodo.org/doi/10.5281/zenodo.11180794)
+[Part 3)](https://zenodo.org/doi/10.5281/zenodo.11355499) |
 [Data Usage Policy](#data-usage-policy)
 
 ## Background
@@ -37,7 +38,7 @@ Scanning protocol: Both left and right forearms of volunteers were scanned. For 
 
 ## Code
 
-This repo contains the example code for the Challenge task. 
+This repo contains the example code for the Challenge task. The baseline code is comming soon. Alternatively, you could also refer to this [repo](https://github.com/ucl-candi/freehand/tree/main) for a preliminary baseline code. 
 
 * `data_process.py`: an example code for processing data and scan plotting.
 
