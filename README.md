@@ -5,7 +5,7 @@
 The TUS-REC2024 Challenge is a part of the 27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2024), held in conjunction with the 5th ASMUS workshop, from October 6th to 10th 2024 in Marrakesh, Morocco.
 
 [Website](https://github-pages.ucl.ac.uk/tus-rec-challenge/) |
-[Baseline code](https://github.com/QiLi111/tus-rec-challenge_baseline) |
+[Baseline Code](https://github.com/QiLi111/tus-rec-challenge_baseline) |
 [Train Dataset (Part 1,](https://zenodo.org/doi/10.5281/zenodo.11178508) 
 [Part 2,](https://zenodo.org/doi/10.5281/zenodo.11180794)
 [Part 3)](https://zenodo.org/doi/10.5281/zenodo.11355499) |
